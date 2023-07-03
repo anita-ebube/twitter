@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family:'Segoe UI';
+    color: #525457;
+}
+i{
+    color:black;
+    padding-right: 1rem;
+}
+.whole{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr ;
+
+}
+.menu{
+    
+    border-right: 1px solid #d7d8da;
+}
+.menu h2{
+    padding-bottom:1.5rem ;
+}
+.menu a{
+    font-family:'Segoe UI';
+    font-size: 20px;
+    text-decoration: none;
+    color:#525457;
+    font-weight: lighter;
+}
+.menu a:hover{
+    color: #525457;
+   
+}
+/* .menu h2:hover{
+    background-color: #525457;
+    border-radius: 2rem;
+} */
+.menu button{
+    background-color: #1d9bf0;
+    padding: 0.8rem 4rem;
+    border-radius: 2rem;
+    color: #eff3f4;
+    border: none;
+    font-family:'Segoe UI';
+    font-size: 20px;
+}
+.tweets{
+    flex: 0.5;
+    border-right: 1px solid #b1b3b4;
+    min-width: fit-content;
+    /* overflow-y: scroll; */
+    /* border: 0.5px solid gray; */
+}
+.feed{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid #b1b3b4;
+}
+.tweets::-webkit-scrollbar{
+    display:none;
+}
+.tweets{
+    -ms-text-overflow: none;
+    scrollbar-width: none;
+}
+
+/* #tweetheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 0.7rem;
+}
+#tweetheader div:hover{
+    border-bottom: 2px solid #1d9bf0;
+} */
+.trends{
+    margin: 0.5rem;
+}
+.search{
+    background-color: #eff3f4;
+    padding: 0.5rem 4rem;
+    border-radius: 2rem;
+}
+.search h2{
+    font-size: 14px;
+    color:#525457 ;
+    font-family: 'Segoe UI';
+}
+.trendsforyou{
+    background-color: #eff3f4;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.trends h2{
+    padding-bottom: 1rem;
+}
+.trendsforyou div{
+    padding-bottom: 2rem;
+}
+.trendsforyou p{
+    font: 12px;
+}
+.chatbox{
+    display: flex;
+    padding: 1rem;
+}
+.chatbox img{
+    width: 3rem;
+    border-radius: 4rem;
+}
+.chatbox input{
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    
+}
+
+.chatbox_icons{
+    display: flex;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+.chatbox_icons svg{
+    padding-left: 2.5rem;
+    fill: #1d9bf0;
+    width: 1.3rem;
+    cursor: pointer;
+}
+.chatbox_icons button{
+    background-color: #1d9bf0;
+    padding: 1rem 1.5rem;
+    margin-left: 8rem;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+}
